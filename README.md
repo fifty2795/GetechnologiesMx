@@ -1,0 +1,2 @@
+# GetechnologiesMx
+Examen Alejandro Arizmendi
