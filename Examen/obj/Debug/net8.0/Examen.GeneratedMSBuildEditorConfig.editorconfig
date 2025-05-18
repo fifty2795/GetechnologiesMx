@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Examen
 build_property.RootNamespace = Examen
-build_property.ProjectDir = C:\Users\aleja\source\repos\Examen\
+build_property.ProjectDir = D:\repos\GetTecnologies\Examen\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aleja\source\repos\Examen
+build_property.MSBuildProjectDirectory = D:\repos\GetTecnologies\Examen
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Factura/AgregarFactura.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Factura/AgregarFactura.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxBZ3JlZ2FyRmFjdHVyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Factura/FacturaPartialView.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Factura/FacturaPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxGYWN0dXJhUGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Factura/Index.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Factura/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Home/Index.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Home/Privacy.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Login/Index.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Persona/AgregarPersona.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Persona/AgregarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxBZ3JlZ2FyUGVyc29uYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Persona/EditarPersona.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Persona/EditarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxFZGl0YXJQZXJzb25hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Persona/EliminarPersona.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Persona/EliminarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxFbGltaW5hclBlcnNvbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Persona/Index.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Persona/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Persona/PersonaPartialView.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Persona/PersonaPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxQZXJzb25hUGFydGlhbFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Shared/Error.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/_ViewImports.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/_ViewStart.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aleja/source/repos/Examen/Views/Shared/_Layout.cshtml]
+[D:/repos/GetTecnologies/Examen/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6k84h8j153

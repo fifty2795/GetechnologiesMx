@@ -20,8 +20,12 @@ public partial class ExamenContext : DbContext
     public virtual DbSet<TblPersona> TblPersonas { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=ALEJANDRO\\SQLEXPRESS;Database=Examen;Trusted_Connection=True; TrustServerCertificate=true");
+    {
+        
+    }
+
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //    => optionsBuilder.UseSqlite("Data Source=examen.db");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -30,12 +34,15 @@ public partial class ExamenContext : DbContext
             entity.ToTable("tbl_factura");
 
             entity.Property(e => e.Id).HasColumnName("id");
+
+            // SQLite no tiene tipo datetime nativo, EF Core lo convierte internamente
             entity.Property(e => e.Fecha)
-                .HasColumnType("datetime")
                 .HasColumnName("fecha");
+
             entity.Property(e => e.IdPersona).HasColumnName("id_persona");
+
+            // SQLite no soporta decimal directamente, EF Core lo mapea a REAL (double)
             entity.Property(e => e.Monto)
-                .HasColumnType("decimal(18, 2)")
                 .HasColumnName("monto");
 
             entity.HasOne(d => d.IdPersonaNavigation).WithMany(p => p.TblFacturas)

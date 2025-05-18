@@ -173,11 +173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
+      "projectUniqueName": "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
       "projectName": "Examen.API.Utilidades",
-      "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
+      "projectPath": "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
       "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\obj\\",
+      "outputPath": "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj": {}
+    "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj": {
+    "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj",
+        "projectUniqueName": "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj",
         "projectName": "Examen.Utilidades",
-        "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj",
+        "projectPath": "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj",
         "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\obj\\",
+        "outputPath": "D:\\repos\\GetTecnologies\\Examen.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

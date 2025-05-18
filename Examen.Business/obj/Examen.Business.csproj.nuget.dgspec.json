@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleja\\source\\repos\\Examen.Business\\Examen.Business.csproj": {}
+    "D:\\repos\\GetTecnologies\\Examen.Business\\Examen.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj": {
+    "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
+        "projectUniqueName": "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
         "projectName": "Examen.API.Utilidades",
-        "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
+        "projectPath": "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj",
         "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\obj\\",
+        "outputPath": "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\aleja\\source\\repos\\Examen.Business\\Examen.Business.csproj": {
+    "D:\\repos\\GetTecnologies\\Examen.Business\\Examen.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleja\\source\\repos\\Examen.Business\\Examen.Business.csproj",
+        "projectUniqueName": "D:\\repos\\GetTecnologies\\Examen.Business\\Examen.Business.csproj",
         "projectName": "Examen.Business",
-        "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.Business\\Examen.Business.csproj",
+        "projectPath": "D:\\repos\\GetTecnologies\\Examen.Business\\Examen.Business.csproj",
         "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleja\\source\\repos\\Examen.Business\\obj\\",
+        "outputPath": "D:\\repos\\GetTecnologies\\Examen.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,11 +104,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aleja\\source\\repos\\Examen.Data\\Examen.API.Data.csproj": {
-                "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.Data\\Examen.API.Data.csproj"
+              "D:\\repos\\GetTecnologies\\Examen.Data\\Examen.API.Data.csproj": {
+                "projectPath": "D:\\repos\\GetTecnologies\\Examen.Data\\Examen.API.Data.csproj"
               },
-              "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj": {
-                "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj"
+              "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj": {
+                "projectPath": "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj"
               }
             }
           }
@@ -147,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\aleja\\source\\repos\\Examen.Data\\Examen.API.Data.csproj": {
+    "D:\\repos\\GetTecnologies\\Examen.Data\\Examen.API.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleja\\source\\repos\\Examen.Data\\Examen.API.Data.csproj",
+        "projectUniqueName": "D:\\repos\\GetTecnologies\\Examen.Data\\Examen.API.Data.csproj",
         "projectName": "Examen.API.Data",
-        "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.Data\\Examen.API.Data.csproj",
+        "projectPath": "D:\\repos\\GetTecnologies\\Examen.Data\\Examen.API.Data.csproj",
         "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleja\\source\\repos\\Examen.Data\\obj\\",
+        "outputPath": "D:\\repos\\GetTecnologies\\Examen.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,8 +176,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj": {
-                "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj"
+              "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj": {
+                "projectPath": "D:\\repos\\GetTecnologies\\Examen.API.Utilidades\\Examen.API.Utilidades.csproj"
               }
             }
           }
@@ -215,6 +215,10 @@
               "target": "Package",
               "version": "[9.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -242,14 +246,14 @@
         }
       }
     },
-    "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj": {
+    "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj",
+        "projectUniqueName": "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj",
         "projectName": "Examen.Utilidades",
-        "projectPath": "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\Examen.Utilidades.csproj",
+        "projectPath": "D:\\repos\\GetTecnologies\\Examen.Utilidades\\Examen.Utilidades.csproj",
         "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleja\\source\\repos\\Examen.Utilidades\\obj\\",
+        "outputPath": "D:\\repos\\GetTecnologies\\Examen.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

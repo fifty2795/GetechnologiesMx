@@ -23,3 +23,16 @@ C:\Users\aleja\source\repos\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades
 C:\Users\aleja\source\repos\Examen.Utilidades\obj\Debug\net8.0\refint\Examen.Utilidades.dll
 C:\Users\aleja\source\repos\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.pdb
 C:\Users\aleja\source\repos\Examen.Utilidades\obj\Debug\net8.0\ref\Examen.Utilidades.dll
+D:\repos\GetTecnologies\Examen.Utilidades\bin\Debug\net8.0\Examen.Utilidades.deps.json
+D:\repos\GetTecnologies\Examen.Utilidades\bin\Debug\net8.0\Examen.Utilidades.dll
+D:\repos\GetTecnologies\Examen.Utilidades\bin\Debug\net8.0\Examen.Utilidades.pdb
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.csproj.AssemblyReference.cache
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.AssemblyInfoInputs.cache
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.AssemblyInfo.cs
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.csproj.CoreCompileInputs.cache
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.sourcelink.json
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.dll
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\refint\Examen.Utilidades.dll
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\Examen.Utilidades.pdb
+D:\repos\GetTecnologies\Examen.Utilidades\obj\Debug\net8.0\ref\Examen.Utilidades.dll

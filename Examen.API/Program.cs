@@ -19,8 +19,13 @@ using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<ExamenContext>(options => options.UseSqlServer(builder.Configuration.
-GetConnectionString("defaultConnection")));
+//builder.Services.AddDbContext<ExamenContext>(options => options.UseSqlServer(builder.Configuration.
+//GetConnectionString("defaultConnection")));
+
+var connectionString = builder.Configuration.GetConnectionString("ExamenSQLite");
+
+builder.Services.AddDbContext<ExamenContext>(options =>
+    options.UseSqlite(connectionString));
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
