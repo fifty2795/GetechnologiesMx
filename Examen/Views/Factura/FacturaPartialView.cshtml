@@ -1,0 +1,30 @@
+﻿@using Examen.Utilidades.Helpers
+@model ResponseViewModel<PaginatedList<FacturaViewModel>>
+
+<script src="~/js/Factura.js"></script>
+
+<table id="resultsTable" class="custom-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>FECHA</th>
+            <th>MONTO</th>            
+            <th>NOMBRE</th>
+            <th>IDENTIFICACION</th>
+            <!-- Agrega más columnas según las propiedades de TblProveedor -->
+        </tr>
+    </thead>
+    <tbody id="userData">
+        @foreach (var factura in Model.Data.Items)
+        {
+            <tr>
+                <td>@factura.Id</td>
+                <td>@factura.Fecha.ToString("dd/MM/yyyy")</td>
+                <td>@string.Format("{0:C}", factura.Monto)</td>
+                <td>@factura.Persona.Nombre @factura.Persona.ApellidoPaterno @factura.Persona.ApellidoMaterno</td>
+                <td>@factura.Persona.Identificacion</td>
+                <!-- Agrega más columnas según las propiedades de TblProveedor -->
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@using Examen.Utilidades.Helpers
+@model ResponseViewModel<PaginatedList<PersonaViewModel>>
+
+<script src="~/js/Persona.js"></script>
+
+<table id="resultsTable" class="custom-table">
+    <thead>
+        <tr>
+            <th style="display: none;">ID</th>
+            <th>NOMBRE</th>
+            <th>IDENTIFICACION</th>            
+            <td></td>
+            <td></td>
+            <!-- Agrega más columnas según las propiedades de TblProveedor -->
+        </tr>
+    </thead>
+    <tbody id="userData">
+        @foreach (var persona in Model.Data.Items)
+        {
+            <tr>
+                <td style="display: none;">@persona.Id</td>
+                <td>@persona.Nombre @persona.ApellidoPaterno @persona.ApellidoMaterno</td>
+                <td>@persona.Identificacion</td>                                
+                <td>
+                    <a href="@Url.Action("EditarPersona", "Persona", new { id = persona.Id })"
+                       class="icon-action edit-icon" title="Editar">
+                        <i class="fas fa-pen"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="@Url.Action("EliminarPersona", "Persona", new { id = persona.Id })"
+                       class="icon-action delete-icon" title="Eliminar">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </td>
+                <!-- Agrega más columnas según las propiedades de TblProveedor -->
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+﻿@using Examen.Utilidades.Helpers
+@model FacturaFormViewModel;
+
+<script src="~/js/Factura.js"></script>
+
+<div class="section-header">
+    <h1><span><i class="fas fa-file-invoice me-2"></i></span>Factura</h1>
+</div>
+
+<div class="my-form-container">
+    <form id="formFactura" class="form-container">
+
+        <div class="form-row">
+
+            @* Persona *@
+
+            <div class="col-md-3">
+                <label class="label-concepto" asp-for="Factura.IdPersona">Proveedor</label>
+                <select id="ddlPersona" asp-for="Factura.IdPersona" asp-items="Model.Personas" class="form-control custom-select" data-validate="select" required>
+                    <option value="">Seleccione una persona</option>
+                </select>
+            </div>
+
+            @* Monto *@
+
+            <div class="col-md-3">
+                <label for="txtMonto" class="label-concepto">Monto</label>
+                <input type="text" class="form-control" id="txtMonto" name="Monto" placeholder="Monto" onkeypress="ValidarNumerosDecimales(event, this)" required />
+            </div>         
+
+        </div>        
+
+        @* btn Agregar Factura *@
+        <div class="form-row mt-4">
+            <div class="col-md-9"></div>
+            <div class="col-md-3">
+                <button id="btnGuardar" type="button" class="add-btn">
+                    <span><i class="fas fa-plus-circle"></i></span>
+                    Agregar Factura
+                </button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+@* @section Scripts {
+
+    <script>
+
+
+    </script>
+} *@
